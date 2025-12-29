@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.dark-mode header,
+.dark-mode button {
+    background-color: var(--color-gray-900);
+    color: var(--color-white);
+}
+
+.dark-mode button {
+    border-color: var(--color-gray-700);
+}
